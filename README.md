@@ -18,7 +18,7 @@ The rest of the steps need to be executed on the Terminal:
 2) Cd into the directory Bamazon.
 3) To install all the dependency packages in the project locally, run: `npm install`
 4) To create the database and tables as well as seed the database with 'mock' data, execute: `npm run-script initializeDb`
-5)  
+5)    
 	* To run the Bamazon app as a Customer, execute: `node bamazonCustomer.js` or `npm run-script customer`
 	* To run the Bamazon app as a Store Manager, execute: `node bamazonManager.js` or `npm run-script manager`
 	* To run the Bamazon app as a Supervisor, execute: `node bamazonSupervisor.js` or `npm run-script supervisor`
