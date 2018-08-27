@@ -1,0 +1,30 @@
+{
+  "name": "Bamazon",
+  "version": "1.0.0",
+  "description": "An Amazon-like command line interface storefront",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initializeDb": "node ./db/initializeDb.js",
+    "customer": "node bamazonCustomer.js",
+    "manager": "node bamazonManager.js",
+    "supervisor": "node bamazonSupervisor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muntasir2165/Bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muntasir2165/Bamazon/issues"
+  },
+  "homepage": "https://github.com/muntasir2165/Bamazon#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-table": "^0.3.1",
+    "readline-sync": "^1.4.9",
+    "sync-mysql": "^3.0.1"
+  }
+}
