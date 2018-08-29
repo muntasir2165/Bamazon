@@ -7,6 +7,7 @@ var MySql = require("sync-mysql");
 // create the connection information for the sql database
 var connection = new MySql({
     host: "localhost",
+    port: 3306,
     user: "root",
     password: "",
     database: "bamazon"
