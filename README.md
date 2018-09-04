@@ -8,7 +8,7 @@ This app was developed as part of the Node.js and MySQL homework assignment at t
 
 
 ## Environment Setup
-1) Download and Install [Node.js](https://nodejs.org/en/download/) on you computer.
+1) Download and Install the latest version of [Node.js](https://nodejs.org/en/download/) on you computer.
 2) Download and Install [MySQL Community Server](https://dev.mysql.com/downloads/mysql/). Create a database login with "root" as the username and set the database server to run on the port 3306 (3306 is the default port). For development and demo purposes, the password should be changed to an empty string (`""`) using the command on line 5 in the [schema.sql](./db.schema.sql) file. Make sure the server is up and running before executing the app.
 
 ## Getting Started
